@@ -2,7 +2,12 @@ import nbformat
 import sys
 from nbformat.v4 import new_notebook, new_markdown_cell, new_code_cell
 
-# Path to the Obsidian markdown file
+"""
+Execution command line:
+
+python3 md_to_ipynb_coverter.py "filename"
+ 
+"""
 file_name = sys.argv[1]
 input_path = f"/home/steak/Desktop/My Vault/1 - Knowledge Trees/Arbitrage Deep Learning Project/Neural Networks from Scratch/{file_name}"
 
