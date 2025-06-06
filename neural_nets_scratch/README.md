@@ -6,17 +6,17 @@ This directory contains a collection of Jupyter notebooks that guide you through
 
 The process of making a prediction with a neural network involves several key steps:
 
-1. **Data Preparation**: Load and preprocess the dataset. This includes normalizing the data, handling missing values, and splitting the dataset into training and testing sets.
+1. **Data Preparation**: Load and preprocess the dataset. This includes normalising the data, handling missing values, and splitting the dataset into training and testing sets.
 
-2. **Model Initialization**: Define the architecture of the neural network, including the number of layers, the type of layers (e.g., dense, convolutional), and the activation functions to use.
+2. **Model Initialisation**: Define the architecture of the neural network, including the number of layers, the type of layers (e.g., dense, convolutional), and the activation functions to use.
 
 3. **Training**: Train the model using the training dataset. This involves:
    - **Forward Propagation**: Compute the output of the neural network by passing the input data through each layer.
    - **Loss Calculation**: Determine the error or loss between the predicted output and the actual values.
    - **Backward Propagation**: Calculate the gradients of the loss with respect to each weight in the network using the chain rule.
-   - **Optimization**: Update the weights of the network using an optimization algorithm (e.g., SGD, Adam) to minimize the loss.
+   - **Optimisation**: Update the weights of the network using an optimisation algorithm (e.g., SGD, Adam) to minimise the loss.
 
-4. **Evaluation**: Assess the model's performance using the test dataset to ensure it generalizes well to unseen data.
+4. **Evaluation**: Assess the model's performance using the test dataset to ensure it generalises well to unseen data.
 
 5. **Prediction**: Use the trained model to make predictions on new, unseen data. This involves preprocessing the input data in the same way as the training data and passing it through the network to get the predicted output.
 
